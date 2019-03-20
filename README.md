@@ -1,4 +1,4 @@
-my_first_git_project
+Tutorials
 ====================
 
 Its just a makeshift project. Learning how to use Git.
