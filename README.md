@@ -1,7 +1,7 @@
 Tutorials
 ====================
 
-Its just a makeshift project. Learning how to use Git.
+Its just a makeshift project. Learning how to use Git, Screen, Virtualenv.
 
 ### How to install multiple python versions in mac
 
