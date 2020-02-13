@@ -4,7 +4,7 @@
 
 `top`
 
-<br/> Press 'i' to off the idle process visibility, 'M' for sort the processes in memory usage, 'S' for running time.<br/> 
+Press 'i' to off the idle process visibility, 'M' for sort the processes in memory usage, 'S' for running time.<br/> 
 
 `htop`
 
