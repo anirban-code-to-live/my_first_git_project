@@ -22,3 +22,15 @@ The commands like *top* and *ps* help to find all the running and idle processes
 
 `kill -9 <process_id>`
 
+You can use -9 or -SIGKILL to kill the process immediately. If you dont write any of these flags, the system uses SIGTERM(15) by default.
+
+
+#### System configuration
+
+`sudo lshw -short`
+
+To check cpu configurations:
+`lscpu`
+
+To check storage services:
+`lsblk`
