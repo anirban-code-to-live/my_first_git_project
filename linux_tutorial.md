@@ -16,9 +16,9 @@ The advantage of **ps** command is one can easily find processes associated with
 
 `pgrep anir`
 
-The commands like *top* and *ps* help to find all the running and idle processes in your system. If you happen to know the process name (or part of a process name), you can use *pidof* (*pgrep*) command.
+The commands like *top* and *ps* help to find all the running and idle processes in your system. If you happen to know the process name (or part of a process name), you can use *pidof* (*pgrep*) command.<br>
 
-<br/>
+
 #### Kill a process
 
 `kill -9 <process_id>`
