@@ -8,6 +8,16 @@ Press 'i' to off the idle process visibility, 'M' for sort the processes in memo
 
 `htop`
 
+`ps aux | grep -i anirban`
+
+The advantage of **ps** command is one can easily find processes associated with the term *anirban*
+
+`pidof anirban`
+
+`pgrep anir`
+
+The commands like *top* and *ps* help to find all the running and idle processes in your system. If you happen to know the process name (or part of a process name), you can use *pidof* (*pgrep*) command.
+
 #### Kill a process
 
 `kill -9 <process_id>`
