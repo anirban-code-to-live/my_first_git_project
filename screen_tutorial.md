@@ -10,11 +10,10 @@
 
 ### Split screen (Ubuntu)
 
-1. To split vertically: `ctrl a` then `|`
-2. To split horizontally: `ctrl a` then `S`
-3. To unsplit: `ctrl a` then `Q`
-
+- To split vertically: `ctrl a` then `|`
+- To split horizontally: `ctrl a` then `S`
+- To unsplit: `ctrl a` then `Q`
 - To switch from one to another: `ctrl a` then `tab`
 - After splitting, you need to go the new region and activate it using `ctrl a` then `c`
 
-For more screen commands, visit [stack exchange](https://unix.stackexchange.com/questions/7453/how-to-split-the-terminal-into-more-than-one-view)
+For more screen commands, visit [this stack exchange post](https://unix.stackexchange.com/questions/7453/how-to-split-the-terminal-into-more-than-one-view).
