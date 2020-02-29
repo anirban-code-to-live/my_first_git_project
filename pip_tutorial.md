@@ -12,6 +12,6 @@ PyPI is a repository for python modules.
 1. `pip show`   Show information about a package.
 
 ### General options
-1. `--no-cache-dir` - Disable the cache.
-1. `-q` `--quiet` - Print less output.
-1. `--cache-dir <dir>` - Store the cache data in <dir>.
+1. `--no-cache-dir`  Disable the cache.
+1. `-q` `--quiet`  Print less output.
+1. `--cache-dir <dir>`  Store the cache data in <dir>.
