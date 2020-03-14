@@ -2,6 +2,9 @@
 
 Find all the basic commands in this [Github repo](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 
+### Checkout to a remote branch
+- Checkout to a remote branch by tracking it : `git checkout --track <REMOTE_BRANCH>`
+
 ### Remove local and remote branch
 
 #### Local branch
