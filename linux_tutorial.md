@@ -57,3 +57,5 @@ where X is any combination of the letters 'u' (for owner), 'g' (for group), 'o' 
 
 To deny rwx permission for group and others -
 `chmod go-rwx <file/dir>`  
+
+Full details in this [link][https://statistics.berkeley.edu/computing/unix-permissions]
