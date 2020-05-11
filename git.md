@@ -5,6 +5,11 @@ Find all the basic commands in this [Github repo](https://github.com/Kunena/Kune
 ### Checkout to a remote branch
 - Checkout to a remote branch by tracking it : `git checkout --track <REMOTE_BRANCH>`
 
+### Merge current branch with master
+- If you want to up-to-date your local branch with the master branch, use the following commands: 
+  `git checkout <LOCAL_BRANCH>`
+  `git merge origin/master`
+
 ### Remove local and remote branch
 
 #### Local branch
