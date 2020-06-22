@@ -17,4 +17,9 @@ Its just a makeshift project. Learning how to use Git, Screen, Virtualenv.
     ``pyenv versions``
 6. If there is a project that requires a legacy version like Python 2.7.14, you need to go to the project’s folder and execute this command inside the folder - 
     ``pyenv local 2.7.14``
+    
+    
+### How to install multiple python versions in Ubuntu
+
+Follow this tutorial : https://github.com/pyenv/pyenv
 
