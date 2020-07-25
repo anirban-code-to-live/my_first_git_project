@@ -12,7 +12,7 @@ If the command *ssh-copy-id* is not available, then ``cat ~/.ssh/id_rsa.pub | ss
 
 1. **Set up default identity** ``ssh-keygen``
 2. **Add the key to the agent** ``ssh-add ~/.ssh/<private_key_file>``
-3. **Copy the public key** ``cat /home/anirban/.ssh/<ssh-key-filename>.pub
+3. **Copy the public key** ``cat /home/anirban/.ssh/<ssh-key-filename>.pub``
 4. **Add the public key to bitbucket account** Save the key into manage key section
 5. **Test for successful set up** ``ssh -T git@bitbucket.org``
 
