@@ -8,13 +8,13 @@ If the command *ssh-copy-id* is not available, then ``cat ~/.ssh/id_rsa.pub | ss
 3. **Login to server** ``ssh user@server``
 
 
-### Bitbucket - SSH Key set up for passwordless git operations
+### SSH Key set up for passwordless git operations
 
 1. **Set up default identity** ``ssh-keygen``
 1. **Start SSH agent in background** ``eval "$(ssh-agent -s)"``
 2. **Add the key to the agent** ``ssh-add ~/.ssh/<private_key_file>``
 3. **Copy the public key** ``cat /home/anirban/.ssh/<ssh-key-filename>.pub``
 4. **Add the public key to bitbucket account** Save the key into manage key section
-5. **Test for successful set up** ``ssh -T git@bitbucket.org``
+5. **Test for successful set up** ``ssh -T git@bitbucket.org`` or ``ssh -T git@github.com``
 
 More details here - https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/#SetupanSSHkey-ssh2
