@@ -9,7 +9,7 @@ On the server side, start your jupyter session:
 ##### Step 2:
 On your local machine, use the following command:
 
-`ssh -N -f -L localhost:<local_port>:localhost:<server_port> user@server`
+`ssh [-o ServerAliveCountMax=20 -o ServerAliveInterval=15] -N -f -L localhost:<local_port>:localhost:<server_port> user@server`
 
 ##### Step 3:
 Visit your local browser:
