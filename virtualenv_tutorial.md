@@ -2,16 +2,19 @@ Steps used to create a virtual environment::
 
 1. Make sure you’ve got Python & pip. 
 	$ python --version
-	$ pip --version
+	$ python -m pip --version
+	
+  If pip is not installed or not up-to-date, you can install/upgrade using 
+  	$ python3 -m pip install --user --upgrade pip
 
 2. Install virtualenv via pip:
-	$ pip install virtualenv
+	$ python3 -m pip install --user virtualenv
 	Test your installation:
-	$ virtualenv --version
+	$ python3 -m virtualenv --version
 
 3. Create a virtual environment for a project:
 	$ cd my_project_folder
-	$ virtualenv venv
+	$ python3 -m venv env
 	** It's a good idea to create the environment inside your project folder. You can name it anything (venv is standard)
 
   You can also use the Python interpreter of your choice (like python2.7).
