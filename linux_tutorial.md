@@ -1,5 +1,9 @@
 ## Useful Linux Commands
 
+#### Check filesize
+
+`ls -l --block-size=M <filepath>`
+
 #### CPU Usage and Running Process
 
 `top`
