@@ -6,9 +6,11 @@ In this, we learn how to set up a conda environment in few steps (without much t
 
 ### How to install anaconda in linux
 1. Download the anaconda installer for your OS.
+
     ``wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh``
 
 2. Install by executing the following commans - 
+
     ``sh <downloaded_path>/Anaconda3-2020.02-Linux-x86_64.sh``
     
 3. The installer prompts “In order to continue the installation process, please review the license agreement.” Click Enter to view license terms.
