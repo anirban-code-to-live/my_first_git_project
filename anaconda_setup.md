@@ -23,44 +23,58 @@ For more details, follow this tutorial : https://docs.anaconda.com/anaconda/inst
 
 ### How to use anaconda in linux
 1. Verify conda installed or not - 
+
     ``conda --version``
 
 2. Create a new environment (with a specific python version) -
+
     `` conda create --name <venv_name> python=<python_version>``
   
 3. To see the list of environments - 
+
     ``conda info --envs``
 
 4. Activate the base environment - 
+
     ``conda activate``
 
 5. Activate the specific environment you just created -
+
     ``conda activate <venv_name>``
    
 6. To search a specific python package available or not - 
+
     ``conda search <python_package_name>``
    
 7. To install specific python package in conda -
+
     ``conda install <python_package_name>=<package_version>
     
 7. To view list of python packages installed -
+
     ``conda list``
     
 References: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#more-information
     
 ### Installing jupyter notebooks in conda environment
 1. Install jupyter notebooks- 
+
     ``conda install -c conda-forge notebook``
+    
     ``conda install -c conda-forge nb_conda_kernels``
    
 2. Install jupyter lab -
+
     ``conda install -c conda-forge jupyterlab``
+    
     ``conda install -c conda-forge nb_conda_kernels``
     
 3. Install jupyter notebook extensions -
+
     ``conda install -c conda-forge jupyter_contrib_nbextensions``
     
 4. Running the following command will create a kernel that can be used to run jupyter notebook commands inside the virtual environment -
+
     ``ipython kernel install --user --name=<venv_name>``
     
 5. Select the installed kernel when you want to use jupyter notebook in this virtual environment
