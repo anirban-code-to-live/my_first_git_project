@@ -44,6 +44,8 @@ For more details, follow this tutorial : https://docs.anaconda.com/anaconda/inst
 7. To view list of python packages installed -
     ``conda list``
     
+References: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#more-information
+    
 ### Installing jupyter notebooks in conda environment
 1. Install jupyter notebooks- 
     ``conda install -c conda-forge notebook``
@@ -60,3 +62,5 @@ For more details, follow this tutorial : https://docs.anaconda.com/anaconda/inst
     ``ipython kernel install --user --name=<venv_name>``
     
 5. Select the installed kernel when you want to use jupyter notebook in this virtual environment
+
+References: https://www.geeksforgeeks.org/using-jupyter-notebook-in-virtual-environment/, https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a
