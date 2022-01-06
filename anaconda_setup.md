@@ -2,7 +2,7 @@
 Anaconda Setup
 ====================
 
-In this, we learn how to set up a conda environment in few steps (without much talkings!).
+In this, we learn how to set up a conda environment in few steps (without much talking!).
 
 ### How to install anaconda in linux
 1. Download the anaconda installer for your OS.
