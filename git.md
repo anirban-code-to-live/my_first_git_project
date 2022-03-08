@@ -42,3 +42,8 @@ To remove all the .DS_Store files follow this stackoverflow answer: https://stac
 
 
 If you wish to have a public repo of your codebase along with a private repo, here is the best strategy: https://stackoverflow.com/questions/7983204/having-a-private-branch-of-a-public-repo-on-github
+
+
+### Stashed by mistake? Don't worry!
+- If you have stashed you uncommitted changes by mistake, and want to get back those in the same state, use the following commands: 
+  `git stash apply <stash_ref>`
