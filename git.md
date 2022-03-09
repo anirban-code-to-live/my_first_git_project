@@ -47,3 +47,15 @@ If you wish to have a public repo of your codebase along with a private repo, he
 ### Stashed by mistake? Don't worry!
 - If you have stashed you uncommitted changes by mistake, and want to get back those in the same state, use the following commands: 
   `git stash apply <stash_ref>`
+
+### Stacked Feature Development
+- You can start a branch from another branch using the following commands:
+  `git checkout -b <new_branch_name>`
+- Remember to rebase with the parent branch before commit in the child branch.
+- During review, pass the parent branch name using the following command:
+  `git review create --parent=<parent_branch_name>`
+  `git review update --parent=<parent_branch_name>`
+- Post merge with master branch, you need to remove the commit history using the follwing command:
+  `git rebase -i master`
+- If you make any mistake while rebase, us the following command to get rid of the issue:
+  `git rebase --abort`
