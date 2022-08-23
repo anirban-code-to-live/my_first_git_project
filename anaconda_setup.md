@@ -50,10 +50,14 @@ For more details, follow this tutorial : https://docs.anaconda.com/anaconda/inst
 
     ``conda install <python_package_name>=<package_version>
     
-7. To view list of python packages installed -
+8. To view list of python packages installed -
 
     ``conda list``
     
+9. To remove a conda environment -
+
+``conda env remove --name <env_name>``
+
 References: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#more-information
     
 ### Installing jupyter notebooks in conda environment
