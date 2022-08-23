@@ -56,7 +56,7 @@ For more details, follow this tutorial : https://docs.anaconda.com/anaconda/inst
     
 9. To remove a conda environment -
 
-``conda env remove --name <env_name>``
+    ``conda env remove --name <env_name>``
 
 References: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#more-information
     
