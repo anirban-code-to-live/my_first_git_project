@@ -57,6 +57,14 @@ For more details, follow this tutorial : https://docs.anaconda.com/anaconda/inst
 9. To remove a conda environment -
 
     ``conda env remove --name <env_name>``
+    
+10. To export a conda environment -
+
+    ``conda env export > environment.yml``
+
+10. To create a conda environment from environment file -
+
+    ``conda env create -f environment.yml``
 
 References: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#more-information
     
