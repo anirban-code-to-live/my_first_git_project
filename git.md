@@ -59,3 +59,9 @@ If you wish to have a public repo of your codebase along with a private repo, he
   `git rebase -i master`
 - If you make any mistake while rebase, us the following command to get rid of the issue:
   `git rebase --abort`
+  
+ ### Clean up untracked files
+ - To clean-up/remove untracked files and folders, run the following command:
+    `git clean -f -d`
+ - To Print out the list of files and directories which will be removed (dry run)
+    `git clean -n -d`
