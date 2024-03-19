@@ -65,3 +65,9 @@ If you wish to have a public repo of your codebase along with a private repo, he
     `git clean -f -d`
  - To Print out the list of files and directories which will be removed (dry run)
     `git clean -n -d`
+   
+ ### Revert Commit
+ - To revert the any particular commit with a commit_id, run the following command:
+    `git revert <commit_id>`
+ - To revert the last two commits, run the following command:
+    `git revert HEAD~2..HEAD`
