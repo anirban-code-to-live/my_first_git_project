@@ -71,3 +71,12 @@ If you wish to have a public repo of your codebase along with a private repo, he
     `git revert <commit_id>`
  - To revert the last two commits, run the following command:
     `git revert HEAD~2..HEAD`
+
+ ### Show Commit Changes
+ - To see the changes in the commit with a commit_id, run the following command:
+    `git show <commit_id>`
+
+ ### Remove Commit
+ - To delete any particular commit from past N commits, run the following command:
+    `git rebase -i HEAD~N`
+ - The above will let you `drop` any particular commit
